@@ -1,0 +1,33 @@
+{
+  "model": "Logistic Regression (manual, L2-regularised)",
+  "train_rows": 2834,
+  "test_rows": 1903,
+  "shared_patients_train_test": 0,
+  "metrics": {
+    "accuracy": 0.6206,
+    "precision": 0.6203,
+    "recall": 0.6511,
+    "f1": 0.6354,
+    "roc_auc": 0.6756,
+    "confusion_matrix": [
+      [
+        552,
+        385
+      ],
+      [
+        337,
+        629
+      ]
+    ]
+  },
+  "lead_time_no_show_rates": {
+    "0-7 days": 29.47019867549669,
+    "8-14 days": 35.19163763066202,
+    "15-30 days": 45.533596837944664,
+    "31+ days": 63.94943330427201
+  },
+  "prior_history_no_show_rates": {
+    "No": 46.302367941712205,
+    "Yes": 57.83132530120482
+  }
+}
